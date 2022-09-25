@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-24T18:09:41.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="06xfGPyfilvUZj6l7YCh" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-25T01:10:09.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="CYb4j7OyrxPQfoo4nVs-" version="20.3.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="867" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -89,38 +89,38 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oOCzSW_UTQTpbfUNsKzi-42" value="Departamento" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="285" y="780" width="195" height="112" as="geometry">
+          <mxGeometry x="285" y="780" width="195" height="130" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oOCzSW_UTQTpbfUNsKzi-43" value="- Funcionários : list&lt;Funcionario&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oOCzSW_UTQTpbfUNsKzi-42" vertex="1">
-          <mxGeometry y="26" width="195" height="26" as="geometry" />
+        <mxCell id="oOCzSW_UTQTpbfUNsKzi-43" value="- Funcionários : list&lt;Funcionario&gt;&#xa;- Nome: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oOCzSW_UTQTpbfUNsKzi-42" vertex="1">
+          <mxGeometry y="26" width="195" height="34" as="geometry" />
         </mxCell>
         <mxCell id="oOCzSW_UTQTpbfUNsKzi-44" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="oOCzSW_UTQTpbfUNsKzi-42" vertex="1">
-          <mxGeometry y="52" width="195" height="8" as="geometry" />
+          <mxGeometry y="60" width="195" height="8" as="geometry" />
         </mxCell>
         <mxCell id="RAF2JQtJSOFyqMOcKw4j-21" value="+ addFuncionario() : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oOCzSW_UTQTpbfUNsKzi-42" vertex="1">
-          <mxGeometry y="60" width="195" height="26" as="geometry" />
+          <mxGeometry y="68" width="195" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RAF2JQtJSOFyqMOcKw4j-22" value="+ removeFuncionario() : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oOCzSW_UTQTpbfUNsKzi-42" vertex="1">
-          <mxGeometry y="86" width="195" height="26" as="geometry" />
+          <mxGeometry y="94" width="195" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oOCzSW_UTQTpbfUNsKzi-46" value="Cargo" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="570" y="620" width="190" height="112" as="geometry">
+          <mxGeometry x="570" y="620" width="190" height="130" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oOCzSW_UTQTpbfUNsKzi-47" value="- Funcionários : list&lt;Funcionario&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oOCzSW_UTQTpbfUNsKzi-46" vertex="1">
-          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        <mxCell id="oOCzSW_UTQTpbfUNsKzi-47" value="- Funcionários : list&lt;Funcionario&gt;&#xa;- Nome: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oOCzSW_UTQTpbfUNsKzi-46" vertex="1">
+          <mxGeometry y="26" width="190" height="34" as="geometry" />
         </mxCell>
         <mxCell id="oOCzSW_UTQTpbfUNsKzi-48" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="oOCzSW_UTQTpbfUNsKzi-46" vertex="1">
-          <mxGeometry y="52" width="190" height="8" as="geometry" />
+          <mxGeometry y="60" width="190" height="8" as="geometry" />
         </mxCell>
         <mxCell id="RAF2JQtJSOFyqMOcKw4j-23" value="+ addFuncionario() : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oOCzSW_UTQTpbfUNsKzi-46" vertex="1">
-          <mxGeometry y="60" width="190" height="26" as="geometry" />
+          <mxGeometry y="68" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RAF2JQtJSOFyqMOcKw4j-24" value="+ removeFuncionario() : void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="oOCzSW_UTQTpbfUNsKzi-46" vertex="1">
-          <mxGeometry y="86" width="190" height="26" as="geometry" />
+          <mxGeometry y="94" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oOCzSW_UTQTpbfUNsKzi-55" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oOCzSW_UTQTpbfUNsKzi-47" target="oOCzSW_UTQTpbfUNsKzi-30" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -279,10 +279,10 @@
         <mxCell id="4qoAJS4f5IXlfI-FcJuV-26" value="- Estoque mín : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="4qoAJS4f5IXlfI-FcJuV-1" vertex="1">
           <mxGeometry y="156" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="i1Fe18vsGUUTbD_PkYSo-1" value="&amp;nbsp;- Quantidade Total : int" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="4qoAJS4f5IXlfI-FcJuV-1">
+        <mxCell id="i1Fe18vsGUUTbD_PkYSo-1" value="&amp;nbsp;- Quantidade Total : int" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="4qoAJS4f5IXlfI-FcJuV-1" vertex="1">
           <mxGeometry y="182" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i1Fe18vsGUUTbD_PkYSo-2" value="&amp;nbsp;- Qtd por lote : list&amp;lt;pair&amp;lt;int,int&amp;gt;&amp;gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="4qoAJS4f5IXlfI-FcJuV-1">
+        <mxCell id="i1Fe18vsGUUTbD_PkYSo-2" value="&amp;nbsp;- Qtd por lote : list&amp;lt;pair&amp;lt;int,int&amp;gt;&amp;gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="4qoAJS4f5IXlfI-FcJuV-1" vertex="1">
           <mxGeometry y="212" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4qoAJS4f5IXlfI-FcJuV-6" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="4qoAJS4f5IXlfI-FcJuV-1" vertex="1">
